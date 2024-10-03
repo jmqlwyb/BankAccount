@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sulasok.org</title>
+    <link rel="stylesheet" href="S.css">
+</head>
+<body>
+    <div class="cont">
+        <h2>𝑩𝒂𝒏𝒌𝒐 𝑫𝒆 𝑶𝒓𝒐</h2>
+        <div id="atm-int">
+            <label for="balance">My Balance:</label>
+
+            <input type="text" id="balance" readonly value="0">
+            <div id="action">
+                <button onclick="checkBalance()">Check Balance</button>
+                <button onclick="deposit()">Deposit</button>
+                <button onclick="withdraw()">Withdraw</button>
+                <button onclick="exitATM()">Exit</button>
+            </div>
+        </div>
+        <p id="message"></p>
+    </div>
+    <script src="S.js"></script>
+</body>
+</html>
